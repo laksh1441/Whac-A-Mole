@@ -1,0 +1,36 @@
+body{
+    background-color:brown;
+}
+h1{
+  color: yellow;
+  font-family: 'Italianno', cursive;
+  display: flex;
+  justify-content: center;
+}
+.score{
+    color: yellow;
+    font-family: 'Italianno', cursive;
+}
+.time{
+    color: yellow;
+    font-family: 'Italianno', cursive;
+}
+.grid{
+    width:606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.square{
+    width:200px;
+    height:200px;
+    border:solid white 1px;
+    background-color: darkorange;
+
+}
+.mole{
+    background-image: url('mole.jpg');
+    background-size: cover;
+    
+}
